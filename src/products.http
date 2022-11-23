@@ -1,0 +1,28 @@
+@host=https://localhost:7202/
+@id=65ef4908-192d-4d7d-b43b-14e416af24ec
+
+GET {{host}}products
+
+###
+
+POST {{host}}products
+Content-Type: application/json
+
+{
+  "name": "Stiefelnew",
+  "price": 22.99
+}
+
+###
+
+PUT {{host}}products/{{id}}
+Content-Type: application/json
+
+{
+  "name": "Stiefelnew2131",
+  "price": 22.99
+}
+
+###
+
+DELETE {{host}}products/{{id}}
