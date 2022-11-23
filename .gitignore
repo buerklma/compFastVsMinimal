@@ -1,0 +1,12 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/src/.vs/MicroServiceArchitecture/DesignTimeBuild
+/src/.vs/MicroServiceArchitecture/FileContentIndex/0f5442fe-61ee-404d-b6d6-c7b7454ae070.vsidx
+/src/.vs
+/src/CleanArchitecture/.vs/CleanArchitecture
+/src/CleanArchitecture/bin/Debug/net6.0
+/src/CleanArchitecture/obj
+/src/GatewayAPI/bin/Debug/net6.0
+/src/GatewayAPI/obj
